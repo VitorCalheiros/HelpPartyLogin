@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+body {
+    background-color: #a0ced9;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#btn {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #a1477caf;
+    color: #fff;
+    background-color: #ED688C;
+    width: 52px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#btn:hover {
+    background-color: #e45d81;
+    width: 52px;
+    height: 40px;
+}
+
+.form-control {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #a1477caf;
+    padding: 9px;
+    border: none;
+}
+
+
+.container {
+    margin-top: 10%;
+}
+
+#form {
+    font-family: "Josefin Sans", sans-serif;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px #a1477caf;
+    padding: 35px;
+    background-color: #f291ab;
+    width: max-content;
+    height: max-content;
+    margin-right: 350px;
+}
+
+.svg {
+    height: 450px;
+    width: 450px;
+    float: left;
+    margin-left: 150px;
+    margin-right: 90px;
+}
+
+#icon {
+    position: absolute;
+    margin-top: -2%;
+    margin-right: 20px;
+    background-image: url(/assets/verSenha.svg);
+    transform: translateY(-25%);
+    transform: translateX(1200%);
+    background-size: cover;
+    cursor: pointer;
+}
+
+#icon.hide {
+    background-image: url(../assets/verSenhaOff.svg);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #ebfafd;
+}
+
+a:hover {
+    color: #77cde2;
+}
+
+input {
+    width: 100px;
+}
+
+
+
+
+@media (max-width: 810px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    .svg {
+        margin-left: 110px;
+    }
+
+    #form {
+        margin-left: 110px;
+    }
+
+    #icon {
+        margin-top: -4%;
+        margin-right: 20px;
+        transform: translateY(-25%);
+        transform: translateX(1200%);
+    }
+
+
+
+    .form-control {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 430px) {
+    body {
+        background-color: #f291ab;
+        width: 100%;
+        height: 100%;
+    }
+
+    #form {
+        width: 100%;
+        box-shadow: none;
+        height: 100%;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    #icon {
+        margin-top: -8%;
+        margin-right: 20px;
+        transform: translateY(-25%);
+        transform: translateX(1150%);
+    }
+}
+
+@media (max-width: 360px) {
+    body {
+        background-color: #f291ab;
+        width: 100%;
+        height: 100%;
+    }
+
+    #form {
+        width: 100%;
+        box-shadow: none;
+        height: 100%;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    #icon {
+        margin-top: -9%;
+        margin-right: 20px;
+        transform: translateY(-25%);
+        transform: translateX(950%);
+    }
+}
+
+@media (max-width: 384px) {
+    #icon {
+        margin-top: -8%;
+        margin-right: 20px;
+        transform: translateY(-25%);
+        transform: translateX(1050%);
+    }
+}
